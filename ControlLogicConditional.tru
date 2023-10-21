@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<truthTable>
+  <variables>
+    <variable name="OP2"/>
+    <variable name="OP1"/>
+    <variable name="OP0"/>
+    <variable name="MEM0"/>
+  </variables>
+  <results>
+    <result>
+      <name>PCsrc</name>
+      <values class="BoolTable">0000000000000111</values>
+    </result>
+    <result>
+      <name>PCsub</name>
+      <values class="BoolTable">0000000000000011</values>
+    </result>
+    <result>
+      <name>DataSRC</name>
+      <values class="BoolTable">0000000000110000</values>
+    </result>
+    <result>
+      <name>OUTen</name>
+      <values class="BoolTable">0000000011000000</values>
+    </result>
+    <result>
+      <name>WritePTR</name>
+      <values class="BoolTable">1111000000000000</values>
+    </result>
+    <result>
+      <name>WriteData</name>
+      <values class="BoolTable">0000111100110000</values>
+    </result>
+    <result>
+      <name>ALUsrc</name>
+      <values class="BoolTable">00001111XXXXXXXX</values>
+    </result>
+    <result>
+      <name>ALUOp</name>
+      <values class="BoolTable">00110011XXXX0011</values>
+    </result>
+  </results>
+</truthTable>
